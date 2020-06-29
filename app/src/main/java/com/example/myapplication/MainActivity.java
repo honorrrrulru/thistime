@@ -10,9 +10,10 @@ import android.widget.TextView;
 public class MainActivity extends Activity {
     long time = System.currentTimeMillis();
 
-    Date date = new Date(time);
+    Date date = new Date();
 
     SimpleDateFormat thetime = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
+
     String formatDate = thetime.format(date);
     TextView Now;
     @Override

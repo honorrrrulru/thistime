@@ -9,7 +9,7 @@
         android:id="@+id/Now"
         android:layout_width="411dp"
         android:layout_height="542dp"
-
+        android:background="@drawable/sample"
         android:textColor="#000000"
         android:textSize="20sp" />
 
